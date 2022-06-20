@@ -1,0 +1,66 @@
+.wrapper {
+    position: absolute;
+    left: calc(50% - 1000px/2 - 0.5px);
+    top: 25px;
+    width: 1000px;
+    height: 700px;
+    background-color: rgba(161, 238, 212, 0.342);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+textarea {
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    left: calc(50% - 900px/2 - 0.5px);
+}
+#keyboard {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 290px;
+    width: 100%;
+    height: 350px;
+}
+.addition {
+    position: absolute;
+    top: 650px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.key {    
+    width: 60px;    
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0 15px;
+    border-radius: 5px;   
+    cursor: pointer;
+    border: 5px solid rgb(0, 7, 5);
+    
+}
+.key:hover{
+    background-color: rgba(0, 0, 255, 0.61);
+}
+.first-row, .second-row, .third-row, .fourth-row, .fifth-row {
+    display: flex;    
+    gap: 0px;
+}
+.backspace, .capslock, .enter, .shift {
+    width: 100px;
+    font-size: 1.2rem;
+}
+.big {
+    width: 469px;
+}

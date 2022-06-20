@@ -1,0 +1,5 @@
+  const engChar =[
+    ''
+  ]
+
+export {engChar};
